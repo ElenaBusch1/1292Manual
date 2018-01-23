@@ -2,19 +2,19 @@
 
 \section{Purpose of the Laboratory}
 
-The laboratory experiments described in this manual are an important part of your physics course.  Most of the experiments are designed to illustrate important concepts described in the lectures.  Whenever possible, the material will have been discussed in lecture before you come to the laboratory.  \myskip
+The laboratory experiments described in this manual are an important part of your physics course.  Most of the experiments are designed to illustrate important concepts described in the lectures.  Whenever possible, the material will have been discussed in lecture before you come to the laboratory.  But some of the material, like the first experiment on measurement and errors, is not discussed at length in the lecture.\myskip
 
 The sections headed \underline{Applications} and \underline{Lab Preparation Examples}, which are included in some of the manual sections, are \emph{not} required reading unless your laboratory instructor specifically assigns some part.  The Applications are intended to be motivational and so should indicate the importance of the laboratory material in medical and other applications.  The Lab Preparation Examples are designed to help you prepare for the lab; you will not be required to answer all these questions (though you should be able to answer any of them by the end of the lab).  The individual laboratory instructors may require you to prepare answers to a subset of these problems.\myskip
 
 \section{Preparation for the Laboratory}
 
-In order to keep the total time spent on laboratory work within reasonable bounds, the write-up for each experiment will be completed at the end of the lab and handed in \emph{before the end of each laboratory period}.  Therefore, it is \underline{imperative} that you spend sufficient time preparing for the experiment \emph{before} coming to laboratory. You should take advantage of the opportunity that the experiments are set up in the \underline{Lab Library} (Room 506) and that TAs there are willing to discuss the procedure with you.   \myskip
+In order to keep the total time spent on laboratory work within reasonable bounds, the write-up for each experiment will be completed at the end of the lab and handed in \emph{before the end of each laboratory period}.  Therefore, it is \underline{imperative} that you spend sufficient time preparing for the experiment \emph{before} coming to laboratory. You should take advantage of the opportunity that the experiments are set up in the \underline{Lab Library (Room 506)} and that TAs there are willing to discuss the procedure with you.\myskip
 
-At each laboratory session, the instructor will take a few minutes at the beginning to go over the experiment to describe the equipment to be used and to outline the important issues. This does not substitute for careful preparation beforehand!  You are expected to have studied the manual and appropriate references at home so that you are prepared when you arrive to perform the experiment.  The instructor will be available primarily to answer questions, aid you in the use of the equipment, discuss the physics behind the experiment, and guide you in completing your analysis and write-up.  Your instructor will describe his/her policy regarding expectations during the first lab meeting.\myskip
+At each laboratory session, the instructor will take a few minutes at the beginning to go over the experiment and describe the equipment to be used and to outline the important issues. This does not substitute for careful preparation beforehand!  You are expected to have studied the manual and appropriate references at home so that you are prepared when you arrive to perform the experiment.  The instructor will be available primarily to answer questions, aid you in the use of the equipment, discuss the physics behind the experiment, and guide you in completing your analysis and write-up.  Your instructor will describe his/her policy regarding expectations during the first lab meeting.\myskip
 
 Some experiments and write-ups may be completed in less than the three-hour laboratory period, but under no circumstances will you be permitted to stay in the lab after the end of the period or to take your report home to complete it.  If it appears that you will be unable to complete all parts of the experiment, the instructor will arrange with you to limit the experimental work so that you have enough time to write the report during the lab period.\myskip
 
-\textbf{Note}: Laboratory equipment must be handled with care and each laboratory bench must be returned to a neat and orderly state before you leave the laboratory.  In particular, you must \underline{turn off} all sources of electricity, water, and gas.
+\textbf{Note}: Laboratory equipment must be handled with care and each laboratory bench must be returned to a neat and orderly state before you leave the laboratory.  In particular, you must turn off all sources of electricity, water, and gas.
 
 \section{Bring to Each Laboratory Session}
 
@@ -23,7 +23,8 @@ Some experiments and write-ups may be completed in less than the three-hour labo
 
     \item A pad of $8.5 \times 11$ inch graph paper and a sharp pencil.  (You will write your reports on this paper, including your graphs.  Covers and staplers will be provided in the laboratory.)
 
-    \item A ruler (at least $10\,\mathrm{cm}$ long).
+    \item (optional) A ruler (at least $10\,\mathrm{cm}$ long).
+    \item (optional) A personal laptop with Microsoft Excel for data analysis.
 \end{itemize}
 
 \section{Graph Plotting}
@@ -37,25 +38,43 @@ Frequently, a graph is the clearest way to represent the relationship between th
 
     \item Label each axis to identify the variable being plotted and the units being used.  Mark prominent divisions on each axis with appropriate numbers.
 
-    \item Identify plotted \emph{points} with appropriate symbols, such as crosses, and when necessary draw vertical or horizontal \emph{bars} through the points to indicate the range of uncertainty involved in these points.
+    \item Identify plotted \emph{points} with appropriate symbols, such as crosses, and when necessary draw vertical or horizontal \emph{error bars} through the points to indicate the range of uncertainty involved in these points.
 
-    \item Often there will be a theory concerning the relationship of the two plotted variables.  A linear relationship can be demonstrated if the data points fall along a single straight line.  There are mathematical techniques for determining which straight line best fits the data, but for the purposes of this lab it will be sufficient if you simply make a rough estimate visually.  \emph{The straight line should be drawn as near the mean of the all various points as is optimal}.  That is, the line need not precisely pass through the first and last points.  Instead, each point should be considered as accurate as any other point (unless there are experimental reasons why some points are less accurate than others).  The line should be drawn with about as many points above it as below it, and with the `aboves' and `belows' distributed at random along the line.  (For example, not all points should be above the line at one end and below at the other end).
+    \item Often there will be a theory concerning the relationship between the two plotted variables.  A linear relationship can be demonstrated if the data points fall along a single straight line.  There are mathematical techniques for determining which straight line best fits the data, but for the purposes of this lab, we will be using Microsoft Excel's built-in fitting methods.
 \end{itemize}
 
-\section{Questions or Complaints}
+\section{Error Analysis}
+
+All measurements, however carefully made, give a range of possible values referred to as an uncertainty or error. Since all of science depends on measurements, it is important to understand uncertainties and where they come from. Error analysis is the set of techniques for dealing with them.\myskip
+
+In science, the word ``error'' does not take the usual meaning of ``mistake''. Instead, we will use it interchangeably with ``uncertainty'' when talking about the result of a measurement. There are many aspects to error analysis and it will feature in some form in every lab throughout this course.
+
+\subsection{Inevitability of Experimental Error}
+
+In the first experiment of the semester, you will measure the length of a pendulum. Without a ruler, you might compare it to your own height and (after converting to meters) make an estimate of $1.5\,\mathrm{m}$. Of course, this is only approximate. To quantify this, you might say that you are sure it is not less than $1.3\,\mathrm{m}$ and not more than $1.7\,\mathrm{m}$. With a ruler, you measure $1.62\,\mathrm{m}$. This is a much better estimate, but there is still uncertainty. You couldn't possibly say that the pendulum isn't $1.62001\,\mathrm{m}$ long. If you became obsessed with finding the exact length of the pendulum you could buy a fancy device using a laser, but even this will have an error associated with the wavelength of light.\myskip
+
+Also, at this point you would come up against another problem. You would find that the string is slightly stretched when the weight is on it and the length even depends on the temperature or moisture in the room. So which length do you use? This is a problem of definition. During lab you might find another example. You might ask whether to measure from the bottom, top or middle of the weight. Sometimes one of the choices is preferable for some reason (in this case the middle because it is the center of mass). However, in general it is more important to be clear about what you mean by ``the length of the pendulum'' and consistent when taking more than one measurement. Note that the different lengths that you measure from the top, bottom or middle of the weight do not contribute to the error. \emph{Error} refers to the range of values given by measurements of exactly the same quantity.
+
+\subsection{Importance of Errors}
+
+In daily life, we usually deal with errors intuitively. If someone says ``I'll meet you at 9:00'', there is an understanding of what range of times is OK. However, if you want to know how long it takes to get to JFK airport by train you might need to think about the range of possible values. You might say ``It'll probably take an hour and a half, but I'll allow two hours''. Usually it will take within about 10 minutes of this most probable time. Sometimes it will take a little less than 1hr20, sometimes a little more than 1hr40, but by allowing the most probable time plus three times this uncertainty of 10 minutes you are almost certain to make it. In more technical applications, for example air traffic control, more careful consideration of such uncertainties is essential.\myskip
+
+In science, almost every time that a new theory overthrows an old one, a discussion or debate about relevant errors takes place. In this course, we will definitely not be able to overthrow established theories. Instead, we will verify them with the best accuracy allowed by our equipment. The first experiment involves measuring the gravitational acceleration g. While this fundamental parameter has clearly been measured with much greater accuracy elsewhere, the goal is to make the most accurate possible verification using very simple apparatus which can be a genuinely interesting exercise.\myskip
+
+There are several techniques that we will use to deal with errors throughout the course. All of them are well explained, with more formal justifications, in ``\emph{An Introduction to Error Analysis}'' by John Taylor, available in the Science and Engineering Library in the Northwest Corner Building.
+
+\subsection{Questions or Complaints}
 
 If you have a difficulty, you should attempt to work it through with your laboratory instructor.  If you cannot resolve it, you may discuss such issues with:
 
 \begin{itemize}
-    \item one of the laboratory Preceptors in Pupin Room 729;
+    \item One of the laboratory Preceptors in Pupin Room 729;
 
-    \item the Undergraduate Assistant in the Departmental Office -- Pupin Room 704;
+    \item The Undergraduate Assistant in the Departmental Office -- Pupin Room 704;
 
-    \item the instructor in the lecture course, or the Director of Undergraduate Studies;
+    \item The instructor in the lecture course, or the Director of Undergraduate Studies;
 
-    \item your undergraduate advisor.
+    \item Your undergraduate advisor.
 \end{itemize}
 
 As a general rule, it is a good idea to work downward through this list, though some issues may be more appropriate for one person than another.
-
-
