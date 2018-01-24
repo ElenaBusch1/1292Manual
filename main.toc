@@ -4,7 +4,10 @@
 \contentsline {section}{\numberline {2}Preparation for the Laboratory}{1}{section.0.2}
 \contentsline {section}{\numberline {3}Bring to Each Laboratory Session}{2}{section.0.3}
 \contentsline {section}{\numberline {4}Graph Plotting}{2}{section.0.4}
-\contentsline {section}{\numberline {5}Questions or Complaints}{3}{section.0.5}
+\contentsline {section}{\numberline {5}Error Analysis}{3}{section.0.5}
+\contentsline {subsection}{\numberline {5.1}Inevitability of Experimental Error}{3}{subsection.0.5.1}
+\contentsline {subsection}{\numberline {5.2}Importance of Errors}{4}{subsection.0.5.2}
+\contentsline {subsection}{\numberline {5.3}Questions or Complaints}{4}{subsection.0.5.3}
 \contentsline {chapter}{\numberline {1}Electric Fields}{5}{chapter.1}
 \contentsline {section}{\numberline {1}Introduction}{5}{section.1.1}
 \contentsline {section}{\numberline {2}Theory}{5}{section.1.2}
@@ -22,101 +25,32 @@
 \contentsline {subsection}{\numberline {3.4}Electric Shielding Theorem}{12}{subsection.1.3.4}
 \contentsline {subsection}{\numberline {3.5}Linear Increase in Potential}{13}{subsection.1.3.5}
 \contentsline {section}{\numberline {4}Applications}{13}{section.1.4}
-\contentsline {section}{\numberline {5}Lab Preparation Examples}{17}{section.1.5}
-\contentsline {chapter}{\numberline {2}DC Circuits}{19}{chapter.2}
-\contentsline {chapter}{\numberline {3}The Oscilloscope}{31}{chapter.3}
-\contentsline {section}{\numberline {1}Introduction}{31}{section.3.1}
-\contentsline {subsection}{\numberline {1.1}The Cathode Ray Tube}{31}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {1.2}Display of Time-Varying Potential Difference}{33}{subsection.3.1.2}
-\contentsline {section}{\numberline {2}The Oscilloscope}{35}{section.3.2}
-\contentsline {subsection}{\numberline {2.1}FORMATION OF THE ELECTRON BEAM}{35}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {2.2}VERTICAL DEFLECTION OF THE ELECTRON BEAM}{36}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {2.3}HORIZONTAL DEFLECTION OF THE ELECTRON BEAM}{37}{subsection.3.2.3}
-\contentsline {section}{\numberline {3}Procedure}{39}{section.3.3}
-\contentsline {subsection}{\numberline {3.1}Check the linearity between beam deflection and applied voltage}{39}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.2}Use the oscilloscope to display periodic and aperiodic signals}{39}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3}Use the signal generator and the oscilloscope to measure the gain of an audio amplifier as a function of frequency}{40}{subsection.3.3.3}
-\contentsline {chapter}{\numberline {4}Capacitance}{41}{chapter.4}
-\contentsline {section}{\numberline {1}Introduction}{41}{section.4.1}
-\contentsline {subsection}{\numberline {1.1}Discharging a Capacitor}{41}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {1.2}Charging a Capacitor}{43}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {1.3}Graphical Presentation of Exponential Decay}{43}{subsection.4.1.3}
-\contentsline {section}{\numberline {2}Procedure}{46}{section.4.2}
-\contentsline {subsection}{\numberline {2.1}Large RC-charging}{46}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {2.2}Large RC-discharging}{46}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {2.3}A Relaxation Oscillator}{47}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {2.4}Demonstration of Short RC Time (to be set up by Lab Instructor)}{48}{subsection.4.2.4}
-\contentsline {chapter}{\numberline {5}The Magnetic Field}{51}{chapter.5}
-\contentsline {section}{\numberline {1}Part I - Force on a Current-carrying Wire}{51}{section.5.1}
-\contentsline {subsection}{\numberline {1.1}Physical Principles}{51}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {1.2}Experimental Apparatus}{51}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {1.3}Procedure}{53}{subsection.5.1.3}
-\contentsline {section}{\numberline {2}Part II - EMF Induced in a Moving Coil}{53}{section.5.2}
-\contentsline {subsection}{\numberline {2.1}Physical Principles}{53}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {2.2}Experimental Apparatus}{54}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {2.3}Procedure}{55}{subsection.5.2.3}
-\contentsline {chapter}{\numberline {6}$e/ m$ of The Electron}{57}{chapter.6}
-\contentsline {section}{\numberline {1}General Discussion}{57}{section.6.1}
-\contentsline {section}{\numberline {2}Experimental Apparatus}{57}{section.6.2}
-\contentsline {subsection}{\numberline {2.1}The Sealed Glass Tube}{57}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {2.2}The Helmholtz Coils and Uniform Magnetic Field}{58}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {2.3}The Trajectories of the Electrons in the Glass Tube}{59}{subsection.6.2.3}
-\contentsline {section}{\numberline {3}Procedure}{60}{section.6.3}
-\contentsline {subsection}{\numberline {3.1}Orientation of the Coil and Tube Setup}{60}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {3.2}Preliminary Adjustments}{61}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {3.3}Measurement of the Circular Orbits}{62}{subsection.6.3.3}
-\contentsline {subsection}{\numberline {3.4}Calculations}{62}{subsection.6.3.4}
-\contentsline {subsection}{\numberline {3.5}Further Considerations}{62}{subsection.6.3.5}
-\contentsline {chapter}{\numberline {7}Polarization and Interference}{63}{chapter.7}
-\contentsline {section}{\numberline {1}Introduction}{63}{section.7.1}
-\contentsline {section}{\numberline {2}Theory}{63}{section.7.2}
-\contentsline {subsection}{\numberline {2.1}Polarization}{63}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {2.2}Polarizer}{64}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {2.3}Interference--The Double Slit}{65}{subsection.7.2.3}
-\contentsline {subsection}{\numberline {2.4}Intensity of the Double-Slit Maxima}{67}{subsection.7.2.4}
-\contentsline {subsection}{\numberline {2.5}Light from a Laser}{67}{subsection.7.2.5}
-\contentsline {section}{\numberline {3}Experiments}{68}{section.7.3}
-\contentsline {subsection}{\numberline {3.1}Polarization}{68}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {3.2}Double Slit}{69}{subsection.7.3.2}
-\contentsline {section}{\numberline {4}Specifics of the Experiment}{70}{section.7.4}
-\contentsline {section}{\numberline {5}Equipment}{70}{section.7.5}
-\contentsline {subsection}{\numberline {5.1}Polarization}{71}{subsection.7.5.1}
-\contentsline {subsection}{\numberline {5.2}Double Slit}{72}{subsection.7.5.2}
-\contentsline {section}{\numberline {6}Applications}{74}{section.7.6}
-\contentsline {section}{\numberline {7}Lab Preparation Examples}{75}{section.7.7}
-\contentsline {section}{\numberline {8}Appendix for Experts: How a Laser works (Not required!)}{76}{section.7.8}
-\contentsline {chapter}{\numberline {8}The Photo-Electric Effect}{79}{chapter.8}
-\contentsline {section}{\numberline {1}Physical Principles}{79}{section.8.1}
-\contentsline {section}{\numberline {2}Historical Perspective}{79}{section.8.2}
-\contentsline {section}{\numberline {3}Experimental Apparatus}{80}{section.8.3}
-\contentsline {section}{\numberline {4}Procedure}{85}{section.8.4}
-\contentsline {subsection}{\numberline {4.1}Determining Planck's Constant $h$ and the Work Function $W$ of the Phototube}{85}{subsection.8.4.1}
-\contentsline {subsection}{\numberline {4.2}Disproving the Classical Theory}{85}{subsection.8.4.2}
-\contentsline {chapter}{\numberline {9}The Spectrum of the Hydrogen Atom}{87}{chapter.9}
-\contentsline {section}{\numberline {1}Introduction}{87}{section.9.1}
-\contentsline {section}{\numberline {2}Theory}{87}{section.9.2}
-\contentsline {subsection}{\numberline {2.1}The Spectrum of the Hydrogen Atom}{87}{subsection.9.2.1}
-\contentsline {subsection}{\numberline {2.2}Resolving a Light Spectrum with a Grating}{88}{subsection.9.2.2}
-\contentsline {subsection}{\numberline {2.3}How to read a Vernier Scale}{90}{subsection.9.2.3}
-\contentsline {section}{\numberline {3}Experiments}{91}{section.9.3}
-\contentsline {subsection}{\numberline {3.1}Adjusting the Spectrometer}{91}{subsection.9.3.1}
-\contentsline {subsection}{\numberline {3.2}Obtaining the Lattice Constant}{92}{subsection.9.3.2}
-\contentsline {subsection}{\numberline {3.3}Measuring the Spectrum of Hydrogen Atoms}{93}{subsection.9.3.3}
-\contentsline {section}{\numberline {4}Step by Step List}{93}{section.9.4}
-\contentsline {subsection}{\numberline {4.1}Adjusting the Spectrometer}{93}{subsection.9.4.1}
-\contentsline {subsection}{\numberline {4.2}Obtaining the Lattice Constant}{93}{subsection.9.4.2}
-\contentsline {subsection}{\numberline {4.3}Measuring the Spectrum of Hydrogen Atoms}{94}{subsection.9.4.3}
-\contentsline {subsection}{\numberline {4.4}Analyzing the Data}{94}{subsection.9.4.4}
-\contentsline {section}{\numberline {5}Lab Preparation Examples}{96}{section.9.5}
-\contentsline {chapter}{\numberline {10}Absorption of Beta and Gamma Rays}{97}{chapter.10}
-\contentsline {section}{\numberline {1}Discussion}{97}{section.10.1}
-\contentsline {section}{\numberline {2}Detection of Charged Particles (the Geiger Counter)}{98}{section.10.2}
-\contentsline {section}{\numberline {3}Energy Loss and Range of Beta Particles}{100}{section.10.3}
-\contentsline {section}{\numberline {4}Absorption of Gamma Rays}{101}{section.10.4}
-\contentsline {section}{\numberline {5}Procedure}{101}{section.10.5}
-\contentsline {subsection}{\numberline {5.1}Adjustments and Measurement of Errors in Counting}{101}{subsection.10.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}High Voltage Variations}{101}{subsubsection.10.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Statistical Accuracy}{102}{subsubsection.10.5.1.2}
-\contentsline {subsubsection}{\numberline {5.1.3}Measuring Background Radiation}{103}{subsubsection.10.5.1.3}
-\contentsline {subsection}{\numberline {5.2}Range of Beta Particles}{103}{subsection.10.5.2}
-\contentsline {subsection}{\numberline {5.3}Absorption of Gamma Rays}{105}{subsection.10.5.3}
+\contentsline {section}{\numberline {5}Lab Preparation Examples}{16}{section.1.5}
+\contentsline {chapter}{Appendices}{21}{section*.1}
+\contentsline {chapter}{\numberline {A}Review of Error Analysis}{21}{appendix.A}
+\contentsline {subsection}{\numberline {0.1}Types of Uncertainties}{21}{subsection.A.0.1}
+\contentsline {subsubsection}{\numberline {0.1.1}Systematic Uncertainties}{21}{subsubsection.A.0.1.1}
+\contentsline {subsubsection}{\numberline {0.1.2}Random Uncertainties}{21}{subsubsection.A.0.1.2}
+\contentsline {subsection}{\numberline {0.2}Accuracy and Precision}{22}{subsection.A.0.2}
+\contentsline {subsection}{\numberline {0.3}Numerical Estimates of Uncertainties}{23}{subsection.A.0.3}
+\contentsline {subsubsection}{\numberline {0.3.1}Upper Bound}{23}{subsubsection.A.0.3.1}
+\contentsline {subsubsection}{\numberline {0.3.2}Estimation from the Spread (2/3 method)}{24}{subsubsection.A.0.3.2}
+\contentsline {subsubsection}{\numberline {0.3.3}Square-Root Estimation in Counting}{24}{subsubsection.A.0.3.3}
+\contentsline {subsection}{\numberline {0.4}Relative and Absolute Uncertainty}{25}{subsection.A.0.4}
+\contentsline {subsection}{\numberline {0.5}Propagation of Uncertainties}{25}{subsection.A.0.5}
+\contentsline {subsubsection}{\numberline {0.5.1}Adding/Subtracting Quantities}{25}{subsubsection.A.0.5.1}
+\contentsline {subsubsection}{\numberline {0.5.2}Multiplying/Dividing Quantities}{26}{subsubsection.A.0.5.2}
+\contentsline {subsubsection}{\numberline {0.5.3}Multiplication by a Constant}{27}{subsubsection.A.0.5.3}
+\contentsline {subsubsection}{\numberline {0.5.4}Powers and Roots}{27}{subsubsection.A.0.5.4}
+\contentsline {subsubsection}{\numberline {0.5.5}Other Functions}{27}{subsubsection.A.0.5.5}
+\contentsline {subsection}{\numberline {0.6}Best-Fit Line}{28}{subsection.A.0.6}
+\contentsline {subsection}{\numberline {0.7}Numerical Statistics}{29}{subsection.A.0.7}
+\contentsline {subsection}{\numberline {0.8}Number of Significant Digits}{30}{subsection.A.0.8}
+\contentsline {chapter}{\numberline {B}Error Analysis With Excel}{33}{appendix.B}
+\contentsline {subsubsection}{\numberline {0.0.1}Plotting with Excel}{33}{subsubsection.B.0.0.1}
+\contentsline {subsubsection}{\numberline {0.0.2}Finding Error in Slope}{35}{subsubsection.B.0.0.2}
+\contentsline {subsubsection}{\numberline {0.0.3}Helpful Commands}{36}{subsubsection.B.0.0.3}
+\contentsline {chapter}{\numberline {C}Advanced Error Analysis}{37}{appendix.C}
+\contentsline {section}{\numberline {1}Clarification of 2/3 Rule}{37}{section.C.1}
+\contentsline {section}{\numberline {2}The ``Correct'' Way to Add Uncertainties}{37}{section.C.2}
+\contentsline {section}{\numberline {3}Max-Min Method for Best-fit Line}{38}{section.C.3}

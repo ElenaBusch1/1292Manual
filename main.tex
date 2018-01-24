@@ -4,6 +4,7 @@
 \usepackage{epstopdf}
 \DeclareGraphicsRule{*}{mps}{*}{}
 
+\usepackage[titletoc]{appendix}
 \usepackage{amsmath, amsthm, amssymb}
 \usepackage{listings}
 \usepackage{float}
@@ -103,17 +104,15 @@
     {\huge}
 
 \include{Exp1/ElectricFields}
-%\include{Exp2/Potentiometer}
-\include{Exp3/Capacitance}
-\include{Exp4/TheMagneticField}
-\include{Exp5/emOfTheElectron}
-%\include{Exp6/emOfTheElectron}
-%\include{Exp7/PolarizationAndInterference}
-\include{Exp8/PolarizationAndInterference}
-\include{Exp9/TheSpectrumOfTheHydrogenAtom}
-\include{Exp10/AbsorptionOfBetaAndGammaRays}
-
-
+%%\include{Exp2/Potentiometer} %DC circuits
+%\include{Exp3/Capacitance}
+%\include{Exp4/TheMagneticField}
+%\include{Exp5/emOfTheElectron}
+%%\include{Exp6/emOfTheElectron}%Optics2
+%%\include{Exp7/PolarizationAndInterference} %Optics2
+%\include{Exp8/PolarizationAndInterference} %not done
+%\include{Exp9/TheSpectrumOfTheHydrogenAtom}
+%\include{Exp10/AbsorptionOfBetaAndGammaRays}
 
 \titleformat{\chapter}[display]
     {\bfseries\huge\filright}
@@ -121,13 +120,13 @@
     {0pt}
     {\huge}
 
-\lhead[\rightmark]{Appendix 2-\thechapter}
-\cfoot{\thepage}
-\rhead[Appendx 2-\thechapter]{\leftmark}
-
 \appendix
 \appendixpage
 \addappheadtotoc
+
+\lhead[\rightmark]{Appendix 2-\thechapter}
+\cfoot{\thepage}
+\rhead[Appendx 2-\thechapter]{\leftmark}
 
 \chapter{Review of Error Analysis}
 
@@ -180,7 +179,7 @@ Most of our measuring devices in this lab have scales that are coarser than the 
 
 \begin{figure}[h]
     \begin{center}
-        \includegraphics[width=0.5\textwidth]{./Exp1-2/pic/image1.png}
+        \includegraphics[width=0.5\textwidth]{./pic/image1.png}
     \end{center}
     \caption{Measuring Length}
     \label{fig:measure}
@@ -224,7 +223,7 @@ When we \textbf{add or subtract} quantities, the combined uncertainty is the \te
 Take as an example measuring the length of a dog. We measure the distance between the left wall and the tail of the dog and subtract the distance from the wall to the dog's nose.
 \begin{figure}[h]
     \begin{center}
-        \includegraphics[width=0.5\textwidth]{./Exp1-2/pic/image2.png}
+        \includegraphics[width=0.5\textwidth]{./pic/image2.png}
     \end{center}
     \caption{Measuring a Dog}
     \label{fig:dog}
@@ -266,7 +265,7 @@ Note that the final step has rounded both the result and the uncertainty to an a
 
 \subsubsection{Multiplication by a Constant}
 
-Multiplying a value by a constant leaves the relative error unchanged. This is equivalent to multiplying the absolute error by the same constant. For example, suppose we are trying to find the circumference of a circle knowing it's radius as $r=1.0 \pm 0.1 \hspace{1mm} \text{cm}$ with error. We would calculate the circumference with error as follows.
+Multiplying a value by a constant leaves the relative error unchanged. This is equivalent to multiplying the absolute error by the same constant. For example, suppose we are trying to find the circumference of a circle knowing it's radius as $r=1.0 \pm 0.1 \hspace{1mm} \text{cm}$ with error; we would calculate the circumference with error as follows.
 
 \begin{gather}
 C = 2\pi r \nonumber \\
@@ -312,7 +311,7 @@ In most research laboratories, plotting measurements is found to be the preferre
 
 \begin{figure}[h]
     \begin{center}
-        \includegraphics[width=0.9\textwidth, height=0.5\textwidth]{./Exp1-1/pic/image13.jpg}
+        \includegraphics[width=0.9\textwidth, height=0.5\textwidth]{./pic/image13.jpg}
     \end{center}
     \caption{Left: an example best-fit line. Right: the maximum and minimum possible slope from our data used to calculate uncertainty in the best-fit line. Notice how we have drawn the lines on the outer bounds of the error bars to achieve the maximum and minimum possible slope within the error bars.}
     \label{fig:bestfit}
@@ -342,11 +341,11 @@ Set 2 & 11&0&10&40&2&3&10&10&4 &9.8&10&10&11.4
 \end{tabular}
 \end{center}
 \myskip
-Notice how both Data Sets have the same mean, median, and mode, which tells us the data points in each set are centered around the mean value of $9.8$. However, the standard deviations are quite different. The large standard deviation in Data Set 2 tells us there must be outliers in the data set which increase the distribution. Whereas, the relatively small standard deviation in the first data set tells us the numbers in set 1 are clustered closely together. Standard deviation is especially important because  it tells us exactly how distributed the number are around the mean value, which gives an indication of how error affects the spread of data points (for example, see figure \ref{fig:bellcurve} for the canonical "bell curve" distribution, also known as the gaussian distribution). The 2/3 method as discussed in Section \ref{sssec:twothirds} is an approximation to the standard deviation since $2/3 \sim 66\%$, which roughly corresponds to the first standard deviation (see figure \ref{fig:bellcurve}).
+Notice how both Data Sets have the same mean, median, and mode, which tells us the data points in each set are centered on the mean value of $9.8$. However, the standard deviations are quite different. The large standard deviation in Data Set 2 tells us there must be outliers in the data set which increase the distribution. Whereas, the relatively small standard deviation in the first data set tells us the numbers in set 1 are clustered closely together. Standard deviation is especially important because  it tells us exactly how distributed the number are around the mean value, which gives an indication of how error affects the spread of data points (for example, see figure \ref{fig:bellcurve} for the canonical "bell curve" distribution, also known as the gaussian distribution). The 2/3 method as discussed in Section \ref{sssec:twothirds} is an approximation to the standard deviation since $2/3 \sim 66\%$, which roughly corresponds to the first standard deviation (see figure \ref{fig:bellcurve}).
 
 \begin{figure}[h]
     \begin{center}
-        \includegraphics[width=0.7\textwidth]{./Exp1-1/pic/image3.png}
+        \includegraphics[width=0.7\textwidth]{./pic/image3.png}
     \end{center}
     \caption{An example of a Gaussian distribution, also known as a bell curve. $\sim 68\%$ of the data points are within 1 standard deviation, $\sim 95\%$ of that data points are contained within 2 standard deviations, $\sim 99.5 \%$ of the data points are contained within 3 standard deviations, etc...}
     \label{fig:bellcurve}
@@ -380,7 +379,7 @@ An important set of data analysis tools in Excel are plotting and linear fit fun
 
 \begin{figure}[h!]
 \centering
-\includegraphics[height=0.4\textheight, width=0.7\textwidth]{./Exp1-2/pic/image4.png}
+\includegraphics[height=0.4\textheight, width=0.7\textwidth]{./pic/image4.png}
 \caption{Selecting x and y data and creating a lined scatter plot in excel.}
 \label{fig:excel1}
 \end{figure}
@@ -396,14 +395,14 @@ An important set of data analysis tools in Excel are plotting and linear fit fun
 
 \begin{figure}[h!]
 \centering
-\includegraphics[height=0.4\textheight, width=0.7\textwidth]{./Exp1-2/pic/image5.png}
+\includegraphics[height=0.4\textheight, width=0.7\textwidth]{./pic/image5.png}
 \caption{Using your own data set to create x and y error bars in excel.}
 \label{fig:excel2}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
-\includegraphics[height=0.4\textheight, width = 0.7\textwidth]{./Exp1-2/pic/image6.png}
+\includegraphics[height=0.4\textheight, width = 0.7\textwidth]{./pic/image6.png}
 \caption{Using excel to perform a linear fit and return the intercept and slope.}
 \label{fig:excel3}
 \end{figure}
@@ -448,10 +447,10 @@ Your TA will guide you through the relevant excel commands necessary for data an
 \texttt{EXP} & Returns e raised to the power of a given number \\
 \texttt{LN} & Returns the natural logarithm of a number \\
 \texttt{MEDIAN} & Finds the median of a data set \\
-\texttt{MODE.SNGL} & Finds the most commonly occuring number in a data set\\
+\texttt{MODE.SNGL} & Finds the most commonly occurring number in a data set\\
 \texttt{PI} & Returns the value of pi\\
 \texttt{POWER} & Returns the result of a number raised to a power\\
-\texttt{SIN} & Calcualtes the sine of a number\\
+\texttt{SIN} & Calculates the sine of a number\\
 \texttt{SQRT} & Calculates the square root of a number\\
 \texttt{STDEV.P} & Calculates the standard deviation based on the entire population \\
 \texttt{STDEV.S} & Estimates the standard deviation based on a sample \\
