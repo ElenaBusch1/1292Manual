@@ -5,3 +5,9 @@
 *.gz
 *.swp
 *.index
+/tmp/
+/tmp/*
+!/main.pdf
+*.DS_Store*
+.texlipse
+.project
