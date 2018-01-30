@@ -9,11 +9,12 @@ In this lab, we will investigate the mathematical relationship between voltage a
 
 Consider a uniform wire of length $l$ and cross-sectional area $A$ with a potential difference $\Delta V = V_b - V_a$ maintained across it as shown in Figure \ref{fig:cross-sec}.\myskip
 
-
-%
-% find figure one..... fuuuuck
-%
-%%
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.4\textwidth]{./Exp2/pic/wireresistance.png}
+\caption{Resistance of a uniform wire.}
+\label{fig:cross-sec}
+\end{figure}
 
 The current $I$ that this potential difference produces can be obtained once we know the resistance $R$ of this wire:
 \begin{equation}
@@ -63,7 +64,7 @@ When applying Kirchhoff's second rule in practice, we imagine traveling around s
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.6\textwidth]{./Exp2/pic/signconventions.png}
+\includegraphics[width=0.6\textwidth]{./Exp2/pic/signconventions.jpg}
 \caption{Sign conventions for Kirchhoff's Second Rule}
 \label{fig:signconventions}
 \end{figure}
@@ -153,35 +154,194 @@ Measuring voltage is different! Here we will construct a complete circuit and ou
 \label{sec:resist}
 You already know the coded resistance of each of your resistors from the colored stripes, but now we will verify how accurate those are. Measuring resistance does not require a circuit at all. With your multimeter set to resistance mode, it will act as our power supply (like a battery) so touching the probes to each side of the resistor will send current through and the multimeter's display will tell us its measured resistance.\myskip
 
-\item Choose three resistors. They could be the ones from before or entirely new ones. Enter their corresponding sets of colors in Table \ref{tab:resistance}. We will refer to one as Resistor #1, another as #2 and the third as #3.
+\begin{enumerate}
+	\item Choose three resistors. They could be the ones from before or entirely new ones. Enter their corresponding sets of colors in Table \ref{tab:resistance}. We will refer to one as Resistor \#1, another as \#2 and the third as \#3.
 
-\begin{table}
-\begin{center}
-\begin{tabular}{| c | c | c | c | c |}
-\hline
-	Color Bands & Coded Resistance (\Ommega) & Measured Resistance (\Omega) & \% Error & Tolerance \\
+	\begin{table}
+		\begin{center}
+			\begin{tabular}{| c | c | c | c | c |}
+				\hline
+				Color Bands & Coded Resistance ($\Omega$) & Measured Resistance ($\Omega$) & $\%$ Error & Tolerance \\
+				\hline
+				$\#1$ & & & & \\
+				\hline
+				$\#2$ & & & & \\
+				\hline
+				$\#3$ & & & & \\
+				\hline
+			\end{tabular}
+		\end{center}
+		\caption{Resistance and error Section \ref{sec:resist}.}
+		\label{tab:resistance}
+	\end{table}
+
+	\item Determine the coded value of your resistors from the color code in Figure \ref{fig:resistancechart}. Enter the Tolerance value as indicated by the color of the fourth bar in the plot.
+
+	\item Use the multimeter to measure the resistance of each of your three resistors. Enter these values in the table.
+
+	\item Determine the percentage experimental error of each resistance value and enter in the appropriate column.
+	\begin{equation}
+		\text{\% Error} = \frac{|\text{Measured} - \text{Coded}|}{\text{Coded}} \times 100\%
+	\end{equation}
+
+	\item How does the \% error compare to the coded tolerance for your resistors?
+
+\end{enumerate}
+
+\section{Procedure: Resistors in Series and Parallel}
+It is rare that we encounter circuits with just a single resistor and power source. This section will walk through how we deal with multiple resistors in different layouts.\myskip
+
+\subsection{Series Circuits}
+\begin{enumerate}
+
+	\item Take those same three resistors from Section \ref{sec:resist}. Connect the resistors in a series circuit shown in Figure \ref{fig:voltseries} using the springs to hold the leads of the resistors together without bending them. Connect two wires to the D cell battery and carefully note which side is positive and which is negative.
+
+	\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\textwidth]{./Exp2/pic/voltseries.png}
+	\caption{A diagram of the series circuit}
+	\label{fig:voltseries}
+	\end{figure}
+
+	\item First, disconnect the wires from the battery so we can measure the resistances along the circuit. Use the Multimeter to measure resistance of each individual resistor as well as each series combination by placing the two probes of your multimeter at the beginning and end of where you would like to measure. Make sure your multimeter is in resistance mode! Record your readings in \ref{tab:seriestable}.
+
+	\item Reconnect your battery and measure the voltage across each resistor and each series combination of resistors. Make sure your multimeter is in voltage mode! Record your readings in \ref{tab:seriestable}.
+
+	\begin{table}
+	\begin{center}
+	\begin{tabular}{| c | c | c |}
 	\hline
-	#1 & & & & \\
+		Resistor & Resistance ($\Omega$) & Voltage (V)\\
+		\hline
+		$R_1$ & &\\
+		\hline
+		$R_2$ & &\\
+		\hline
+		$R_3$ & &\\
+		\hline
+		$R_{12}$ & &\\
+		\hline
+		$R_{23}$ & &\\
+		\hline
+		$R_{123}$ & &\\
+		\hline
+	\end{tabular}
+	\end{center}
+	\caption{Voltage and resistance of series resistors}
+	\label{tab:seriestable}
+	\end{table}
+
+	\item What is the apparent rule for total resistance when resistors are added up in series? Cite evidence from your data to support your conclusions.
+
+	\item What is the pattern for how voltage gets distributed in a series circuit with equal resistances? Is there any relationship between the size of the resistance and the size of the resulting voltage?
+
+\noindent Now we will modify our circuit slightly to allow us to measure current. Remember, for measuring current, the multimeter will complete the circuit. We will measure the current at four different locations following Figure \ref{fig:seriescurrent}. For a measurement at each location, we will remove the corresponding wire connector and replace it with the two probes of our multimeter. Remember to replace the wires when measuring other locations.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{./Exp2/pic/seriescurrent.jpg}
+\caption{A diagram of the series circuit}
+\label{fig:seriescurrent}
+\end{figure}
+
+	\item Make sure your multimeter is in current mode and measure the four currents as indicated in Figure \ref{fig:seriescurrent}. You should be using the multimeter scale which goes to a maximum of 200 mA. Be careful to observe the direction of the current in your measurements. The red probe of the meter should connect to the positive lead on the circuit and the black probe to the other. Record your results in Table \ref{tab:seriescurrent}.
+
+	\begin{table}
+	\begin{center}
+	\begin{tabular}{| c | c |}
 	\hline
-	#2 & & & & \\
+		 & Current (A)\\
+		\hline
+		$I_0$ &\\
+		\hline
+		$I_1$ &\\
+		\hline
+		$I_2$ &\\
+		\hline
+		$I_3$ &\\
+		\hline
+	\end{tabular}
+	\end{center}
+	\caption{Current across series resistors}
+	\label{tab:seriescurrent}
+	\end{table}
+
+	\item What is the pattern for how current behaves in a series circuit?
+
+\end{enumerate}
+
+\subsection{Parallel Circuits}
+\begin{enumerate}
+	\item Take the same three resistors and connect them in a parallel circuit following Figure \ref{fig:voltparallel}.
+
+	\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.4\textwidth]{./Exp2/pic/voltparallel.png}
+	\caption{A diagram of the parallel circuit}
+	\label{fig:voltparallel}
+	\end{figure}
+
+	\item As before, set your multimeter to resistance mode and disconnect your battery. Measure the resistance of each individual resistor as well as one across the whole parallel set of resistors (by placing your probes at the two junction points in Figure \ref{fig:voltparallel}). Record your measurements in Table \ref{tab:paralleltable}.
+
+	\item Reconnect your battery and measure the voltage across each resistor and the parallel combination of resistors. Make sure your multimeter is in voltage mode! Record your readings in \ref{tab:paralleltable}.
+
+	\begin{table}
+	\begin{center}
+	\begin{tabular}{| c | c | c |}
 	\hline
-	#3 & & & & \\
+		Resistor & Resistance ($\Omega$) & Voltage (V)\\
+		\hline
+		$R_1$ & &\\
+		\hline
+		$R_2$ & &\\
+		\hline
+		$R_3$ & &\\
+		\hline
+		$R_{123}$ & &\\
+		\hline
+	\end{tabular}
+	\end{center}
+	\caption{Voltage and resistance of parallel resistors}
+	\label{tab:paralleltable}
+	\end{table}
+
+	\item What is the rule for total resistance when resistors are added up in parallel? Cite evidence from your data to support your conclusions.
+
+	\item What is the pattern for how voltage distributs itself in a parallel circuit? Is there any relationship between the size of the resistance and the size of the resulting voltage?
+
+\noindent Now we will modify our circuit again to allow us to measure current. Review the instructions from before. We will measure the current at five different locations according to Figure \ref{fig:parallelcurrent}.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.4\textwidth]{./Exp2/pic/currentparallel.jpg}
+\caption{A diagram of the parallel circuit}
+\label{fig:parallelcurrent}
+\end{figure}
+
+	\item Make sure your multimeter is in current mode as before and measure the five currents indicated in Figure \ref{fig:parallelcurrent}. Be careful to observe the direction of the current in your measurements. Record your results in Table \ref{tab:parallelcurrent}.
+
+	\begin{table}
+	\begin{center}
+	\begin{tabular}{| c | c |}
 	\hline
-\end{tabular}
-\end{center}
-\caption{Resistance and error Section \ref{sec:resist}.}
-\label{tab:resistance}
-\end{table}
+		 & Current (A)\\
+		\hline
+		$I_0$ &\\
+		\hline
+		$I_1$ &\\
+		\hline
+		$I_2$ &\\
+		\hline
+		$I_3$ &\\
+		\hline
+		$I_4$ &\\
+		\hline
+	\end{tabular}
+	\end{center}
+	\caption{Current across parallel resistors}
+	\label{tab:parallelcurrent}
+	\end{table}
 
-\item Determine the coded value of your resistors from the color code in Figure \ref{fig:resistancechart}. Enter the Tolerance value as indicated by the color of the fourth bar in the plot.
+	\item Are there any patterns to the way currents behave in a parallel circuit?
 
-\item Use the multimeter to measure the resistance of each of your three resistors. Enter  these values in the table.
-
-\item Determine the percentage experimental error of each resistance value and enter in the appropriate column.
-\begin{equation}
-	\text{\% Error} = \frac{|\text{Measured} - \text{Coded}|}{\text{Coded}} \times 100\%
-\end{equation}
-
-\item How does the \% error compare to the coded tolerance for your resistors?
-
-\section{Proceducre: Resistors in Series and Parallel}
+\end{enumerate}
